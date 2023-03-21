@@ -2,11 +2,11 @@ SELECT DISTINCT (replacement_cost) FROM film;
 
 --SELECT COUNT (DISTINCT (replacement_cost)) FROM film;
 
---SELECT COUNT (DISTINCT title) FROM film
+--SELECT COUNT (*) FROM film
 --WHERE title ~~ 'T%' AND rating = 'G';
 
---SELECT COUNT (DISTINCT (country)) FROM country
+--SELECT COUNT (*) FROM country
 --WHERE country ~~* '_____';
 
---SELECT COUNT (DISTINCT (city)) FROM city
+--SELECT COUNT (*) FROM city
 --WHERE city ~~* '%r';

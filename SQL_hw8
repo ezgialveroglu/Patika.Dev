@@ -1,0 +1,16 @@
+CREATE TABLE employee (
+	id INTEGER,
+	name VARCHAR (50),
+	birthday DATE,
+	email VARCHAR (100)
+);	
+
+insert into book (id, name, birthday, email) values (2,'Orv', 1969-05-06, orv@orv.com);
+
+UPDATE employee
+SET name = 'UPDATE'
+WHERE name = 'Orv'
+RETURNING *;
+
+DELETE FROM employee
+WHERE name LIKE '%l%';
